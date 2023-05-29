@@ -41,6 +41,8 @@ const Coins = () => {
   if (loader) {
   }
 
+
+  {console.log(coins  )}
   return (
     <Container maxW={"container.xl"}>
       {loader ? (
