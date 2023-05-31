@@ -1,9 +1,40 @@
-import React from 'react'
+import { Box, Container, Image, Text } from "@chakra-ui/react";
+import React from "react";
+import btc from "../assets/btc.png";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <Box bg={"blackAlpha.900"} w={"full"} h={"85vh"}>
+      <motion.div
+        style={{ height: "80vh" }}
+        animate={{ translateY: "20px" }}
 
-export default Home
+        transition={{duration:2,repeat:Infinity,repeatType:'reverse'}}
+
+        
+       
+      >
+        <Image
+          src={btc}
+          w={"full"}
+          h={"full"}
+          objectFit={"contain"}
+          filter={"grayscale(1)"}
+        />
+      </motion.div>
+
+      <Text
+        textAlign={"center"}
+        fontSize={"6xl"}
+        fontWeight={"thin"}
+        color={"whiteAlpha.900"}
+        mt={-20}
+      >
+        XCrypto
+      </Text>
+    </Box>
+  );
+};
+
+export default Home;

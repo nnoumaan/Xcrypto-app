@@ -5,6 +5,7 @@ import Coins from "./components/Coins";
 import CoinsDetails from "./components/CoinsDetails";
 import Exchange from "./components/Exchange";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 
 
@@ -20,6 +21,8 @@ function App() {
   
 </Routes>
 
+
+<Footer/>
 
 </Router>
   );
