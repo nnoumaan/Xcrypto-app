@@ -16,7 +16,8 @@ const Footer = () => {
 
 <VStack> <Avatar boxSize={'28'} mt={['4','0']} src={myimage} objectFit={'fill'}/>
 
-<Text>Our Founder</Text>
+<Text>Noumaan Ansari</Text>
+<Text>Founder X-Crypto App</Text>
 
 
 
